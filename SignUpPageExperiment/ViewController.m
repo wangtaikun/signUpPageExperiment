@@ -209,7 +209,7 @@
     }];
 }
 
-#pragma mark -- 其他方法
+#pragma mark - 其他方法
 
 -(void)startLocation {
     if (!_locationManager) {
@@ -217,7 +217,6 @@
         self.locationManager.delegate = self;
         self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
         self.locationManager.distanceFilter = 100.0f;
-        
         if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {
             if ([CLLocationManager authorizationStatus]==kCLAuthorizationStatusNotDetermined) {
                 //在前台定位,requestAlwaysAuthorization后台也可以定位
@@ -244,14 +243,14 @@
         //跳转动画效果
         _imagePicker.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     }
-    UIAlertController *alertController =[[UIAlertController alloc] init];
-    UIAlertAction *cancel =[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertController *alertController = [[UIAlertController alloc] init];
+    UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
         
     }];
-    UIAlertAction *camera =[UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *camera = [UIAlertAction actionWithTitle:@"相机" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self openCamera];
     }];
-    UIAlertAction *pgotoGraph =[UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    UIAlertAction *pgotoGraph = [UIAlertAction actionWithTitle:@"相册" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         [self openPhotoGraph];
     }];
     [alertController addAction:cancel];
@@ -310,7 +309,7 @@
 }
 
 -(void)autolayoutFirstView {
-    //弱引用表示self用于代码块中，我也不知道为什么
+    //弱引用表示self用于代码块中
     __weak typeof(self) weakSelf = self;
     
     //Location位置栏布局
@@ -338,11 +337,10 @@
     
     //用户名Lable布局
     [self.userNamelab mas_makeConstraints:^(MASConstraintMaker *make) {
-        
+        // 如果需要水平中央对齐则.centerY
         // make.centerY.equalTo(weakSelf.headImageView.mas_centerY).with.offset(0);
         make.top.equalTo(weakSelf.headImageView.mas_bottom).with.offset(30);
         make.left.equalTo(weakSelf.locationLab.mas_left);
-        //make.right.equalTo(weakSelf.view.mas_right).with.offset(-30);
         make.width.equalTo(weakSelf.headImageView.mas_width).multipliedBy(0.25);
         //高度head一半
         make.height.equalTo(weakSelf.headImageView.mas_height).multipliedBy(0.25);
@@ -369,10 +367,8 @@
     // 生日选择
     [self.birthdayPicker mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(weakSelf.birthdaylab.mas_centerY).with.offset(0);
-        //        make.top.equalTo(weakSelf.userNameTextField.mas_bottom).with.offset(30);
         make.left.equalTo(weakSelf.birthdaylab.mas_right).with.offset(5);
         make.right.equalTo(weakSelf.locationLab.mas_right).with.offset(0);
-        //        make.width.equalTo(weakSelf.headImageView.mas_width);
         make.height.equalTo(weakSelf.birthdaylab.mas_height);
     }];
     

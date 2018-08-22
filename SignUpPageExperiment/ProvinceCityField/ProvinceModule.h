@@ -12,6 +12,7 @@
 
 @property (strong,nonatomic) NSMutableArray *city;
 @property (strong,nonatomic) NSString *provinceName;
-+(instancetype)provinceFill:(NSDictionary *) dic;
+
++(instancetype)initWithProvinceAndCity:(NSDictionary *)dic;
 
 @end

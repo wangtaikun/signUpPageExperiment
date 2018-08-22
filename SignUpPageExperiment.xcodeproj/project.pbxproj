@@ -19,19 +19,8 @@
 		F71F0D4B211949A900230ADC /* HeadPortraitImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D4A211949A900230ADC /* HeadPortraitImageView.m */; };
 		F71F0D52211995B900230ADC /* BirthdayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D51211995B900230ADC /* BirthdayPicker.m */; };
 		F71F0D5421199B0200230ADC /* citys.plist in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5321199B0200230ADC /* citys.plist */; };
-		F71F0D572119A5BF00230ADC /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D562119A5BF00230ADC /* 0.jpg */; };
-		F71F0D592119A5D100230ADC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D582119A5D100230ADC /* 1.jpg */; };
-		F71F0D5F2119A5E700230ADC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5A2119A5E600230ADC /* 3.jpg */; };
-		F71F0D602119A5E700230ADC /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5B2119A5E600230ADC /* 7.jpg */; };
-		F71F0D612119A5E700230ADC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5C2119A5E600230ADC /* 4.jpg */; };
-		F71F0D622119A5E700230ADC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5D2119A5E600230ADC /* 2.png */; };
-		F71F0D632119A5E700230ADC /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D5E2119A5E600230ADC /* 5.jpg */; };
 		F71F0D662119BBB200230ADC /* ProvinceCitysPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D652119BBB200230ADC /* ProvinceCitysPickerView.m */; };
 		F71F0D692119F10400230ADC /* ProvinceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D682119F10400230ADC /* ProvinceModule.m */; };
-		F71F0D71211AEDE800230ADC /*  nationAndFlag.plist in Resources */ = {isa = PBXBuildFile; fileRef = F71F0D70211AEDE800230ADC /*  nationAndFlag.plist */; };
-		F71F0D74211AEF8D00230ADC /* NationAndFlagModle.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D73211AEF8D00230ADC /* NationAndFlagModle.m */; };
-		F71F0D77211AF0CE00230ADC /* FlagPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D76211AF0CD00230ADC /* FlagPicker.m */; };
-		F71F0D7A211AF8B200230ADC /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D79211AF8B200230ADC /* FlagView.m */; };
 		F71F0D7E212A717500230ADC /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F71F0D7D212A717500230ADC /* ShowViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -77,24 +66,10 @@
 		F71F0D50211995B900230ADC /* BirthdayPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BirthdayPicker.h; sourceTree = "<group>"; };
 		F71F0D51211995B900230ADC /* BirthdayPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BirthdayPicker.m; sourceTree = "<group>"; };
 		F71F0D5321199B0200230ADC /* citys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = citys.plist; sourceTree = "<group>"; };
-		F71F0D562119A5BF00230ADC /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpg; path = ../../../../../Downloads/0.jpg; sourceTree = "<group>"; };
-		F71F0D582119A5D100230ADC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../../../Downloads/1.jpg; sourceTree = "<group>"; };
-		F71F0D5A2119A5E600230ADC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../../../Downloads/3.jpg; sourceTree = "<group>"; };
-		F71F0D5B2119A5E600230ADC /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = ../../../../../Downloads/7.jpg; sourceTree = "<group>"; };
-		F71F0D5C2119A5E600230ADC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../../../Downloads/4.jpg; sourceTree = "<group>"; };
-		F71F0D5D2119A5E600230ADC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../../Downloads/2.png; sourceTree = "<group>"; };
-		F71F0D5E2119A5E600230ADC /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = ../../../../../Downloads/5.jpg; sourceTree = "<group>"; };
 		F71F0D642119BBB200230ADC /* ProvinceCitysPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceCitysPickerView.h; sourceTree = "<group>"; };
 		F71F0D652119BBB200230ADC /* ProvinceCitysPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceCitysPickerView.m; sourceTree = "<group>"; };
 		F71F0D672119F10400230ADC /* ProvinceModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProvinceModule.h; sourceTree = "<group>"; };
 		F71F0D682119F10400230ADC /* ProvinceModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProvinceModule.m; sourceTree = "<group>"; };
-		F71F0D70211AEDE800230ADC /*  nationAndFlag.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = " nationAndFlag.plist"; sourceTree = "<group>"; };
-		F71F0D72211AEF8D00230ADC /* NationAndFlagModle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NationAndFlagModle.h; sourceTree = "<group>"; };
-		F71F0D73211AEF8D00230ADC /* NationAndFlagModle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NationAndFlagModle.m; sourceTree = "<group>"; };
-		F71F0D75211AF0CD00230ADC /* FlagPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagPicker.h; sourceTree = "<group>"; };
-		F71F0D76211AF0CD00230ADC /* FlagPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagPicker.m; sourceTree = "<group>"; };
-		F71F0D78211AF8B200230ADC /* FlagView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagView.h; sourceTree = "<group>"; };
-		F71F0D79211AF8B200230ADC /* FlagView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagView.m; sourceTree = "<group>"; };
 		F71F0D7C212A717500230ADC /* ShowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
 		F71F0D7D212A717500230ADC /* ShowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -170,7 +145,6 @@
 			children = (
 				F71F0D4F2119956000230ADC /* BirthdayField */,
 				F71F0D4E2119954600230ADC /* ProvinceCityField */,
-				F71F0D4D2119952700230ADC /* CoountryFlagField */,
 				F71F0D4C211994E100230ADC /* HeadPortraitField */,
 				F71F0D17211948F300230ADC /* AppDelegate.h */,
 				F71F0D18211948F300230ADC /* AppDelegate.m */,
@@ -213,21 +187,6 @@
 			path = HeadPortraitField;
 			sourceTree = "<group>";
 		};
-		F71F0D4D2119952700230ADC /* CoountryFlagField */ = {
-			isa = PBXGroup;
-			children = (
-				F71F0D72211AEF8D00230ADC /* NationAndFlagModle.h */,
-				F71F0D73211AEF8D00230ADC /* NationAndFlagModle.m */,
-				F71F0D75211AF0CD00230ADC /* FlagPicker.h */,
-				F71F0D76211AF0CD00230ADC /* FlagPicker.m */,
-				F71F0D552119A48E00230ADC /* flagPicture */,
-				F71F0D70211AEDE800230ADC /*  nationAndFlag.plist */,
-				F71F0D78211AF8B200230ADC /* FlagView.h */,
-				F71F0D79211AF8B200230ADC /* FlagView.m */,
-			);
-			path = CoountryFlagField;
-			sourceTree = "<group>";
-		};
 		F71F0D4E2119954600230ADC /* ProvinceCityField */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,20 +205,6 @@
 				F71F0D51211995B900230ADC /* BirthdayPicker.m */,
 			);
 			path = BirthdayField;
-			sourceTree = "<group>";
-		};
-		F71F0D552119A48E00230ADC /* flagPicture */ = {
-			isa = PBXGroup;
-			children = (
-				F71F0D562119A5BF00230ADC /* 0.jpg */,
-				F71F0D582119A5D100230ADC /* 1.jpg */,
-				F71F0D5D2119A5E600230ADC /* 2.png */,
-				F71F0D5A2119A5E600230ADC /* 3.jpg */,
-				F71F0D5C2119A5E600230ADC /* 4.jpg */,
-				F71F0D5E2119A5E600230ADC /* 5.jpg */,
-				F71F0D5B2119A5E600230ADC /* 7.jpg */,
-			);
-			path = flagPicture;
 			sourceTree = "<group>";
 		};
 		F71F0D7B211BE50900230ADC /* Res */ = {
@@ -382,17 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F71F0D632119A5E700230ADC /* 5.jpg in Resources */,
 				F71F0D24211948F700230ADC /* LaunchScreen.storyboard in Resources */,
-				F71F0D572119A5BF00230ADC /* 0.jpg in Resources */,
-				F71F0D622119A5E700230ADC /* 2.png in Resources */,
 				F71F0D5421199B0200230ADC /* citys.plist in Resources */,
-				F71F0D602119A5E700230ADC /* 7.jpg in Resources */,
-				F71F0D592119A5D100230ADC /* 1.jpg in Resources */,
 				F71F0D21211948F700230ADC /* Assets.xcassets in Resources */,
-				F71F0D71211AEDE800230ADC /*  nationAndFlag.plist in Resources */,
-				F71F0D612119A5E700230ADC /* 4.jpg in Resources */,
-				F71F0D5F2119A5E700230ADC /* 3.jpg in Resources */,
 				F71F0D1F211948F300230ADC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,14 +405,11 @@
 			files = (
 				F71F0D1C211948F300230ADC /* ViewController.m in Sources */,
 				F71F0D27211948F700230ADC /* main.m in Sources */,
-				F71F0D7A211AF8B200230ADC /* FlagView.m in Sources */,
 				F71F0D7E212A717500230ADC /* ShowViewController.m in Sources */,
 				F71F0D19211948F300230ADC /* AppDelegate.m in Sources */,
 				F71F0D662119BBB200230ADC /* ProvinceCitysPickerView.m in Sources */,
-				F71F0D77211AF0CE00230ADC /* FlagPicker.m in Sources */,
 				F71F0D692119F10400230ADC /* ProvinceModule.m in Sources */,
 				F71F0D4B211949A900230ADC /* HeadPortraitImageView.m in Sources */,
-				F71F0D74211AEF8D00230ADC /* NationAndFlagModle.m in Sources */,
 				F71F0D52211995B900230ADC /* BirthdayPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

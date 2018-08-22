@@ -9,7 +9,8 @@
 #import "ProvinceModule.h"
 
 @implementation ProvinceModule
-+(instancetype)provinceFill:(NSDictionary *)dic {
+
++(instancetype)initWithProvinceAndCity:(NSDictionary *)dic {
     ProvinceModule *temp = [[self alloc]init];
     [temp setValuesForKeysWithDictionary:dic];
     return temp;

@@ -8,6 +8,7 @@
 
 #import "ProvinceCitysPickerView.h"
 #import "ProvinceModule.h"
+
 @implementation ProvinceCitysPickerView
 
 - (instancetype)initWithFrame:(CGRect)frame {
@@ -35,9 +36,9 @@
         NSString *filePath = [[NSBundle mainBundle] pathForResource:@"citys.plist" ofType:nil];
         NSArray *rootArry = [NSArray arrayWithContentsOfFile:filePath];
         _allProvinces = [[NSMutableArray alloc]init];
-        //所有省模型放入allprovince可变数组
-        for(NSDictionary *dit in rootArry) {
-            ProvinceModule *temp = [ProvinceModule provinceFill:dit];
+        // 所有省模型放入allprovince可变数组
+        for (NSDictionary *dit in rootArry) {
+            ProvinceModule *temp = [ProvinceModule initWithProvinceAndCity:dit];
             [_allProvinces addObject:temp];
         }
     }

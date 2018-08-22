@@ -66,7 +66,8 @@
 
 -(void)autoLayoutShowView {
     __weak typeof(self) weakSelf = self;
-    //昵称
+    
+    //昵称label布局
     [self.nameLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.view.mas_top).with.offset(50);
         make.left.equalTo(weakSelf.view.mas_left).with.offset(30);
@@ -74,7 +75,7 @@
         make.height.equalTo(weakSelf.nameLabel.mas_width).multipliedBy(0.2);
     }];
     
-    //生日
+    //生日label布局
     [self.birthdayLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.nameLabel.mas_bottom).with.offset(30);
         make.left.equalTo(weakSelf.nameLabel.mas_left);
@@ -82,7 +83,7 @@
         make.height.equalTo(weakSelf.nameLabel.mas_height);
     }];
     
-    //籍贯
+    //籍贯label布局
     [self.provinceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(weakSelf.birthdayLabel.mas_bottom).with.offset(30);
         make.left.equalTo(weakSelf.birthdayLabel.mas_left);
