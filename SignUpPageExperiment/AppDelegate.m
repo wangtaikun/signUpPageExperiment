@@ -17,7 +17,6 @@
 
 @implementation AppDelegate
 
-
 /* didFinishLaunchingWithOptions：不用故事版的时候设置根viewController；设置第三方库的初始化之类的。
 /launchOptions是指示app启动原因的字典（如果有）。这个字典也可能是空的在用户直接点击图标启动的情况下。
  例如当程序关闭，并且有推送消息过来的时候，通过点击推送打开app这个字典就包含推送过来的消息内容
